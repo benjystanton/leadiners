@@ -1,2 +1,3 @@
-# leadiners
-A directory of the folks at Leadin
+# Leadiners
+A directory of the folks at Leadin.
+http://benjystanton.github.io/leadiners/
