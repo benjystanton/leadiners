@@ -3,6 +3,7 @@
 body {
   color: #314249;
   font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
 }
 
 ul {
@@ -28,14 +29,6 @@ img {
   padding: 0 0 2em;
 }
 
-.header__title {
-  text-align: center;
-}
-
-.header__subtitle {
-  text-align: center;
-}
-
 /* Content */
 
 .content {
@@ -55,7 +48,6 @@ img {
   display: flex;
   flex-direction: column;
   width: 10em;
-  text-align: center;
   margin: 0 1em;
   padding-bottom: 2em;
 }
