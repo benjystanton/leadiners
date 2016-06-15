@@ -1,0 +1,82 @@
+/* Typography */
+
+body {
+  color: #314249;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* Images */
+
+img {
+    height: auto;
+    max-width: 100%;
+  }
+
+/* Header */
+
+.header {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 0 2em;
+}
+
+.header__title {
+  text-align: center;
+}
+
+.header__subtitle {
+  text-align: center;
+}
+
+/* Content */
+
+.content {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+/* Contact block */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+  text-align: center;
+  margin: 0 1em;
+  padding-bottom: 2em;
+}
+
+.contact__name {
+  font-size: 1em;
+  margin-bottom: 0;
+  order: 2;
+}
+
+.contact__photo {
+  border-radius: 100%;
+  order: 1;
+}
+
+.contact__role {
+  margin: 0;
+  order: 3;
+}
+
+.contact__location {
+  margin: 0;
+  order: 4;
+}
