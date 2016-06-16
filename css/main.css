@@ -1,12 +1,22 @@
+/* Helper clas */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
 /* Typography */
 
 body {
     color: #314249;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
-}
-.heading--xlarge {
-    font-size: 3em;
 }
 ul {
     margin: 0;
@@ -31,10 +41,16 @@ img {
     padding: 1em 0;
 }
 
+.header__logo {
+  width: 100px;
+}
+
 /* Grid */
 
 .container {
     padding: 3em 0;
+}
+.row {
     margin: 0 auto;
     width: 90%;
 }
@@ -46,9 +62,15 @@ img {
     padding: 1em 0;
 }
 
+/* Hero */
+
+.hero {
+  background-color: #EBEEEE;
+}
+
 /* Contact block */
 
-.row {
+.contact-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
