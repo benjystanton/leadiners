@@ -28,7 +28,7 @@ li {
 
 .row {
   margin: 0 auto;
-  width: 80%; }
+  width: 90%; }
 
 /* Helper classes */
 /* =========================================================================*/
@@ -77,9 +77,12 @@ img {
 .member {
   display: flex;
   flex-direction: column;
-  width: 10em;
-  margin: 0 1em;
+  width: 8em;
+  margin: 0 3%;
   padding-bottom: 2em; }
+  @media screen and (min-width: 800px) {
+    .member {
+      width: 10em; } }
 
 .member__name {
   font-size: 1em;

@@ -11,9 +11,12 @@
 .member {
     display: flex;
     flex-direction: column;
-    width: 10em;
-    margin: 0 1em;
+    width: 8em;
+    margin: 0 3%;
     padding-bottom: 2em;
+    @media screen and (min-width: $break-medium) {
+      width: 10em;
+    }
 }
 .member__name {
     font-size: 1em;
