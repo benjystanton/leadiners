@@ -1,0 +1,36 @@
+/* Team */
+/* =========================================================================*/
+.directory {
+    padding: 5em 0;
+}
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    margin: 0 1em;
+    padding-bottom: 2em;
+}
+.contact__name {
+    font-size: 1em;
+    margin-bottom: 0.2em;
+    order: 2;
+}
+.contact__photo {
+    border-radius: 100%;
+    order: 1;
+}
+.contact__role {
+    font-size: 0.9em;
+    margin: 0;
+    order: 3;
+}
+.contact__location {
+    font-size: 0.9em;
+    margin: 0;
+    order: 4;
+}

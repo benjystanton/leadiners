@@ -1,0 +1,104 @@
+/* Typography */
+/* =========================================================================*/
+body {
+  color: #314249;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center; }
+
+.heading--xlarge {
+  font-size: 3em;
+  font-weight: 300; }
+
+ul {
+  margin: 0;
+  padding-left: 0; }
+
+li {
+  list-style: none; }
+
+/* Grid */
+/* =========================================================================*/
+.container {
+  padding: 3em 0; }
+
+.row {
+  margin: 0 auto;
+  width: 80%; }
+
+/* Helper classes */
+/* =========================================================================*/
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* Header */
+/* =========================================================================*/
+.header {
+  background-color: #F8981D;
+  color: #ffffff;
+  padding: 1em 0; }
+
+.header__logo {
+  width: 100px; }
+
+/* Hero */
+/* =========================================================================*/
+.hero {
+  background-color: #EBEEEE;
+  padding: 2em 0; }
+
+/* Footer */
+/* =========================================================================*/
+.footer {
+  background-color: #EBEEEE;
+  padding: 1em 0; }
+
+/* Team */
+/* =========================================================================*/
+.directory {
+  padding: 5em 0; }
+
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+  margin: 0 1em;
+  padding-bottom: 2em; }
+
+.contact__name {
+  font-size: 1em;
+  margin-bottom: 0.2em;
+  order: 2; }
+
+.contact__photo {
+  border-radius: 100%;
+  order: 1; }
+
+.contact__role {
+  font-size: 0.9em;
+  margin: 0;
+  order: 3; }
+
+.contact__location {
+  font-size: 0.9em;
+  margin: 0;
+  order: 4; }
+
+/* Images */
+/* =========================================================================*/
+img {
+  height: auto;
+  max-width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
