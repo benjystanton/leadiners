@@ -92,7 +92,7 @@ img {
 }
 .contact__name {
     font-size: 1em;
-    margin-bottom: 0;
+    margin-bottom: .2em;
     order: 2;
 }
 .contact__photo {
