@@ -9,7 +9,7 @@
     padding: 0;
     position: absolute;
     width: 1px;
-  }
+}
 
 /* Typography */
 
@@ -17,6 +17,10 @@ body {
     color: #314249;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
+}
+.heading--xlarge {
+  font-size: 3em;
+  font-weight: 300;
 }
 ul {
     margin: 0;
@@ -40,9 +44,8 @@ img {
     color: #ffffff;
     padding: 1em 0;
 }
-
 .header__logo {
-  width: 100px;
+    width: 100px;
 }
 
 /* Grid */
@@ -65,10 +68,15 @@ img {
 /* Hero */
 
 .hero {
-  background-color: #EBEEEE;
+    background-color: #EBEEEE;
+    padding: 2em 0;
 }
 
-/* Contact block */
+/* Contact directory */
+
+.directory {
+  padding: 5em 0;
+}
 
 .contact-list {
     display: flex;
@@ -92,10 +100,12 @@ img {
     order: 1;
 }
 .contact__role {
+    font-size: .9em;
     margin: 0;
     order: 3;
 }
 .contact__location {
+    font-size: .9em;
     margin: 0;
     order: 4;
 }
