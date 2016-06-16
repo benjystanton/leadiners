@@ -37,11 +37,17 @@ li {
   position: absolute;
   width: 1px; }
 
+/* Images */
+/* =========================================================================*/
+img {
+  height: auto;
+  max-width: 100%; }
+
 /* Header */
 /* =========================================================================*/
 .header {
   background-color: #F8981D;
-  color: #ffffff;
+  color: #FFFFFF;
   padding: 1em 0; }
 
 .header__logo {
@@ -52,12 +58,6 @@ li {
 .hero {
   background-color: #EBEEEE;
   padding: 2em 0; }
-
-/* Footer */
-/* =========================================================================*/
-.footer {
-  background-color: #EBEEEE;
-  padding: 1em 0; }
 
 /* Team */
 /* =========================================================================*/
@@ -95,10 +95,10 @@ li {
   margin: 0;
   order: 4; }
 
-/* Images */
+/* Footer */
 /* =========================================================================*/
-img {
-  height: auto;
-  max-width: 100%; }
+.footer {
+  background-color: #EBEEEE;
+  padding: 1em 0; }
 
 /*# sourceMappingURL=style.css.map */
