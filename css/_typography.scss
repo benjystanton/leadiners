@@ -6,8 +6,13 @@ body {
     text-align: center;
 }
 .heading--xlarge {
-    font-size: 3em;
     font-weight: 300;
+    @media screen and (min-width: $break-small) {
+      font-size: 3em;
+    }
+    @media screen and (min-width: $break-medium) {
+      font-size: 4em;
+    }
 }
 ul {
     margin: 0;

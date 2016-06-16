@@ -1,35 +1,35 @@
 /* Team */
 /* =========================================================================*/
-.directory {
+.team {
     padding: 5em 0;
 }
-.contact-list {
+.team--list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.contact {
+.member {
     display: flex;
     flex-direction: column;
     width: 10em;
     margin: 0 1em;
     padding-bottom: 2em;
 }
-.contact__name {
+.member__name {
     font-size: 1em;
     margin-bottom: 0.2em;
     order: 2;
 }
-.contact__photo {
+.member__photo {
     border-radius: 100%;
     order: 1;
 }
-.contact__role {
+.member__role {
     font-size: 0.9em;
     margin: 0;
     order: 3;
 }
-.contact__location {
+.member__location {
     font-size: 0.9em;
     margin: 0;
     order: 4;
